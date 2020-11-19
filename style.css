@@ -1,0 +1,57 @@
+header {
+    font-family: 'Rosario', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.navbar {
+    background-color: rgba(69, 172, 0, 0.507);
+}
+
+/* Style Jumbotron */
+.jumbotron {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.61)),
+    url('https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_960_720.jpg');
+    background-size: cover;
+    height: 770px;
+    margin-top: -120px;
+
+    font-family: 'Rosario', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    line-height: 58px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    margin-top: 220px;
+}
+
+/* Style Carousel */
+.carousel-item {
+    height: 720px;
+    margin-top: -60px;
+}
+
+.carousel-item hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+.carousel-item img {
+    margin-top: -20px;
+    filter: brightness(50%);
+}
+
+.carousel-item .display-4 {
+    margin-top: -440px;
+    /* font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+}
+
+.carousel-item .btn {
+    margin-top: 60px;
+}
