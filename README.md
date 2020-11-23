@@ -2,6 +2,7 @@
 Farmilify ! System Information that helps on agricultural aspect, such as farming, and others.
 
 Developed by : 
-Muhammad Felmi
-Mochammad Rizky
+
+Muhammad Felmi <br>
+Mochammad Rizky <br>
 Tresna R
