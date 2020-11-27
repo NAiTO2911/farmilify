@@ -23,6 +23,7 @@ footer {
     font-family: 'Rosario', sans-serif;
     font-style: normal;
     font-weight: normal;
+    margin-top: 30px;
 }
 
 .cover {
@@ -33,7 +34,6 @@ footer {
     object-position: 100% 70%; /* try 20px 10px */     
     margin-top: -55px;
     text-shadow: 2px;
-    filter: brightness(50%);
 }
 
 h2 {
