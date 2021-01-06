@@ -1,3 +1,13 @@
+<?php
+session_start();
+if(!isset($_SESSION['username'])) {
+   header('location:logincontroller.php'); 
+} else { 
+   $username = $_SESSION['username']; 
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
