@@ -113,88 +113,23 @@ if(!isset($_SESSION['username'])) {
       </div>
 
       <br>
-
-      <div class="container-fluid" style="margin-bottom: 90px;">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card mb-4 ml-5">
-              <div class="card-body">
-                <h5 class="card-title pt-2 pl-3">Time</h5>
-                <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
-                 <script  src="function.js"></script>
-                <hr>
-                <p class="card-text pl-3"></p>
-                <a href="#" class="btn btn-primary"></a>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="card">
-                              <a class="weatherwidget-io" href="https://forecast7.com/en/n6d92107d62/bandung/" data-label_1="BANDUNG" data-label_2="WEATHER" data-theme="original" >BANDUNG WEATHER</a>
-                <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                </script>
-                <div class="card-body">
-                  <h5 class="card-title pt-2 pl-3">Cuaca</h5>
-                  <hr>
-                  <p class="card-text pl-3"></p>
-                  <a href="#" class="btn btn-primary">Go</a>
-                </div>
-              </div>
-
-              <div class="col-md-3">
-                <div class="card">
-                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
-                  <div class="card-body">
-                    <h5 class="card-title pt-2 pl-3">Siap di panen</h5>
-                    <hr>
-                    <p class="card-text pl-3"></p>
-                    <a href="info_tani.html" class="btn btn-primary">Go</a>
-                  </div>
-                </div>
-
-          </div>
-
-          <br>
-
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card mb-4 ml-5">
-                <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
-                <div class="card-body">
-                  <h5 class="card-title pt-2 pl-3">Mau menanam apa?</h5>
-                  <hr>
-                  <p class="card-text pl-3"></p>
-                  <a href="#" class="btn btn-primary">Go</a>
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <div class="card">
-                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
-                  <div class="card-body">
-                    <h5 class="card-title pt-2 pl-3">Kendala</h5>
-                    <hr>
-                    <p class="card-text pl-3"></p>
-                    <a href="#" class="btn btn-primary">Go</a>
-                  </div>
-                </div>
-  
-                <div class="col-md-3">
-                  <div class="card">
-                    <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
-                    <div class="card-body">
-                      <h5 class="card-title pt-2 pl-3">Hasil panen</h5>
-                      <hr>
-                      <p class="card-text pl-3"></p>
-                      <a href="hasil_panen.html" class="btn btn-primary">Go</a>
-                    </div>
-                  </div>
-  
-            </div>
-
-        </div>
+      <div class="container-fluid text-center mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 pt-5 pb-5"><h5>Sekarang Jam</h5>
+          <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+                 <script  src="function.js"></script></div>
+        <div class="col-lg-4  pt-5 pb-5"><a class="weatherwidget-io" href="https://forecast7.com/en/n6d92107d62/bandung/" data-label_1="BANDUNG" data-label_2="WEATHER" data-theme="dark" >BANDUNG WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script></div>
+        <div class="col-lg-4 bg-primary text-white pt-5 pb-5"><h5>Tanaman siap di Panen</h5></div>
+        <br>
+        <div class="col-lg-4 bg-danger pt-5 pb-5"><h5>col-lg-4</h5></div>
+        <div class="col-lg-4 bg-primary pt-5 pb-5"><h5>col-lg-4</h5></div>
+        <div class="col-lg-4 bg-danger pt-5 pb-5"><h5>col-lg-4</h5></div>
+        <div class="col-lg-12 pt-5 pb-5"><h5></h5></div>
       </div>
+    </div>
       
     </body> 
        <!-- Footer -->
