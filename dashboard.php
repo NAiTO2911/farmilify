@@ -74,7 +74,7 @@ if(!isset($_SESSION['username'])) {
                 aria-labelledby="navbarDropdownMenuLink-333">
                 <a class="dropdown-item" href="#">Edit Profile</a>
                 <a class="dropdown-item" href="#"></a>
-                <a class="dropdown-item text-danger" href="index.php">Logout</a>
+                <a class="dropdown-item text-danger" href="logout.php">Logout</a>
               </div>
             </li>
           </ul>

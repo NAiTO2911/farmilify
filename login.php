@@ -40,7 +40,7 @@
                   <a class="nav-link js-scroll-trigger text-white" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger text-white" href="index.html">Back</a>
+                  <a class="nav-link js-scroll-trigger text-white" href="index.php">Back</a>
 
                 </li>
               </ul>
