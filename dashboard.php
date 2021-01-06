@@ -115,14 +115,15 @@ if(!isset($_SESSION['username'])) {
       <br>
       <div class="container-fluid text-center mt-5">
       <div class="row justify-content-center">
-        <div class="col-lg-4 pt-5 pb-5"><h5>Sekarang Jam</h5>
+        <div class="col-lg-4 pt-5 pb-5"><br><br><br><h5>Sekarang Jam</h5> <br>
           <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
                  <script  src="function.js"></script></div>
         <div class="col-lg-4  pt-5 pb-5"><a class="weatherwidget-io" href="https://forecast7.com/en/n6d92107d62/bandung/" data-label_1="BANDUNG" data-label_2="WEATHER" data-theme="dark" >BANDUNG WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script></div>
-        <div class="col-lg-4 bg-primary text-white pt-5 pb-5"><h5>Tanaman siap di Panen</h5></div>
+        <div class="col-lg-4 bg-secondary pt-5 pb-5"><h5>Tanaman siap di Panen</h5>
+      <br> <br> <br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
         <br>
         <div class="col-lg-4 bg-danger pt-5 pb-5"><h5>col-lg-4</h5></div>
         <div class="col-lg-4 bg-primary pt-5 pb-5"><h5>col-lg-4</h5></div>

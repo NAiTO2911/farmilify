@@ -20,12 +20,15 @@ $password=md5($_POST["password"]); //untuk password digunakan enskripsi md5
   if ($hasil) {
     echo "Selamat, akun anda sudah terdaftar! Silahkan login";
     echo "<br>";
+    echo "<br>";
     echo "Redirecting page in 5 seconds";
     header( "refresh:5;url=login.php" );
     
   }
 else {
     echo "Gagal mendaftar akun! Silahkan coba lagi";
+    echo "<br>";
+    echo "<br>";
     echo "Redirecting page in 5 seconds";
     header( "refresh:5;url=daftar.php" );
 }  
