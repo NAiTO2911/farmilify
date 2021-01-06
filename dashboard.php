@@ -96,9 +96,11 @@ if(!isset($_SESSION['username'])) {
             </div>
           </div>
         </div> -->  
-        <h1>Yay! Selamat datang : <?php 
-        session_start();
-        echo $_SESSION['nama']; ?></h1>
+
+              h1>Yay! Selamat datang : 
+                  session_start();
+                  echo $_SESSION['nama']; ?>
+
 
       <div class="cover">
         <div class="container-fluid">
@@ -109,13 +111,15 @@ if(!isset($_SESSION['username'])) {
                 <span class="name"></span>
                 <hr class="star-light">
                 <span class="skills float-right text-light"><h2> <br> </h2></span>
+                </h1>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <br>
+</br>
+
 
       <div class="container-fluid" style="margin-bottom: 90px;">
         <div class="row">
@@ -132,7 +136,7 @@ if(!isset($_SESSION['username'])) {
                 </div>
               </div>
             </div>
-
+            <br>
             <div class="col-md-3">
               <div class="card">
                 <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
