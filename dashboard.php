@@ -121,12 +121,15 @@ if(!isset($_SESSION['username'])) {
         <div class="row">
           <div class="col-md-3">
             <div class="card mb-4 ml-5">
-              <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
+
               <div class="card-body">
                 <h5 class="card-title pt-2 pl-3">Time</h5>
-                <hr>
-                <p class="card-text pl-3"></p>
-                <a href="#" class="btn btn-primary"></a>
+                <div id="DigitalCLOCK" class="clock" onload="showTime()">
+                    <script  src="function.js"></script>
+                    <hr>
+                    <p class="card-text pl-3"></p>
+                    <a href="#" class="btn btn-primary"></a>
+                </div>
               </div>
             </div>
 
