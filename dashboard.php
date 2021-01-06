@@ -97,12 +97,7 @@ if(!isset($_SESSION['username'])) {
           </div>
         </div> -->  
 
-              h1>Yay! Selamat datang : 
-                  session_start();
-                  echo $_SESSION['nama']; ?>
-
-
-      <div class="cover">
+                  <div class="cover">
         <div class="container-fluid">
           <div class="row" 
                style="background:transparent url('https://images.unsplash.com/photo-1439086245660-e617c4291020?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80') no-repeat center center /cover">
@@ -110,35 +105,31 @@ if(!isset($_SESSION['username'])) {
               <div class="intro-text text-white">
                 <span class="name"></span>
                 <hr class="star-light">
-                <span class="skills float-right text-light"><h2> <br> </h2></span>
-                </h1>
+                <span class="skills float-right text-light"><h2>Selamat Pagi <br>Anda lagi !</h2></span>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-</br>
-
+      <br>
 
       <div class="container-fluid" style="margin-bottom: 90px;">
         <div class="row">
           <div class="col-md-3">
             <div class="card mb-4 ml-5">
-           
+              <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
               <div class="card-body">
                 <h5 class="card-title pt-2 pl-3">Time</h5>
-                <div id="DigitalCLOCK" class="clock" onload="showTime()">
-                    <script  src="function.js"></script>
-                    <hr>
-                    <p class="card-text pl-3"></p>
-                    <a href="#" class="btn btn-primary"></a>
-                </div>
+                <hr>
+                <p class="card-text pl-3"></p>
+                <a href="#" class="btn btn-primary"></a>
               </div>
             </div>
-            <br>
+
             <div class="col-md-3">
               <div class="card">
+                <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
                 <div class="card-body">
                   <h5 class="card-title pt-2 pl-3">Cuaca</h5>
                   <hr>
@@ -149,7 +140,7 @@ if(!isset($_SESSION['username'])) {
 
               <div class="col-md-3">
                 <div class="card">
-                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
+                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
                   <div class="card-body">
                     <h5 class="card-title pt-2 pl-3">Siap di panen</h5>
                     <hr>
@@ -165,7 +156,7 @@ if(!isset($_SESSION['username'])) {
           <div class="row">
             <div class="col-md-3">
               <div class="card mb-4 ml-5">
-                <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
+                <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
                 <div class="card-body">
                   <h5 class="card-title pt-2 pl-3">Mau menanam apa?</h5>
                   <hr>
@@ -176,7 +167,7 @@ if(!isset($_SESSION['username'])) {
   
               <div class="col-md-3">
                 <div class="card">
-                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
+                  <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
                   <div class="card-body">
                     <h5 class="card-title pt-2 pl-3">Kendala</h5>
                     <hr>
@@ -187,7 +178,7 @@ if(!isset($_SESSION['username'])) {
   
                 <div class="col-md-3">
                   <div class="card">
-                    <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;">
+                    <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
                     <div class="card-body">
                       <h5 class="card-title pt-2 pl-3">Hasil panen</h5>
                       <hr>
