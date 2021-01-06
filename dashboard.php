@@ -122,12 +122,15 @@ if(!isset($_SESSION['username'])) {
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script></div>
-        <div class="col-lg-4 bg-secondary pt-5 pb-5"><h5>Tanaman siap di Panen</h5>
-      <br> <br> <br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
+        <div class="col-lg-4  pt-5 pb-5"><h5>Tanaman siap di Panen</h5>
+      <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
         <br>
-        <div class="col-lg-4 bg-danger pt-5 pb-5"><h5>col-lg-4</h5></div>
-        <div class="col-lg-4 bg-primary pt-5 pb-5"><h5>col-lg-4</h5></div>
-        <div class="col-lg-4 bg-danger pt-5 pb-5"><h5>col-lg-4</h5></div>
+        <div class="col-lg-4  pt-5 pb-5"><h5>Mau menanam apa ?</h5>
+        <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
+        <div class="col-lg-4  pt-5 pb-5"><h5>Kendala pada tanaman</h5>
+        <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button></div>
+        <div class="col-lg-4  pt-5 pb-5"><h5>Hasil Panen</h5>
+        <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button></div>
         <div class="col-lg-12 pt-5 pb-5"><h5></h5></div>
       </div>
     </div>
