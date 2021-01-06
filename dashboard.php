@@ -129,7 +129,10 @@ if(!isset($_SESSION['username'])) {
 
             <div class="col-md-3">
               <div class="card">
-                <img src="https://images.unsplash.com/photo-1549988476-8323b2c9a083?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image" style="max-height: 180px;>
+                              <a class="weatherwidget-io" href="https://forecast7.com/en/n6d92107d62/bandung/" data-label_1="BANDUNG" data-label_2="WEATHER" data-theme="original" >BANDUNG WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
                 <div class="card-body">
                   <h5 class="card-title pt-2 pl-3">Cuaca</h5>
                   <hr>
