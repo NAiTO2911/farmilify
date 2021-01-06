@@ -1,6 +1,6 @@
 <?php
-include_once 'config/Database.php';
-include_once 'class/Post.php';
+include_once 'koneksi.php';
+include_once 'diskusi/class/Post.php';
 $database = new Database();
 $db = $database->getConnection();
 $post = new Post($db);
