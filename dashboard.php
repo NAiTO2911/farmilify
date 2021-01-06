@@ -51,7 +51,7 @@ if(!isset($_SESSION['username'])) {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="diskusi.html">Forum</a>
+              <a class="nav-link" href="diskusi/category.php">Forum</a>
             </li>        
           </ul>
           <ul class="navbar-nav ml-auto nav-flex-icons">
