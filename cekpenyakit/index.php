@@ -46,7 +46,8 @@ header("location: about.php");
       <p><a href="diagnosa.php"><button type="button" class="btn btn-primary btn-block">DIAGNOSA PENYAKIT</button></a></p>
       <p><a href="daftarpenyakit.php"><button type="button" class="btn btn-primary btn-block">DAFTAR PENYAKIT</button></a></p>
       <p><a href="about.php"><button type="button" class="btn btn-primary btn-block">ABOUT</button></a></p>
-      <br><br><br><br><br><br><br><br><br><br>
+      <p><a href="../dashboard.php"><button type="button" class="btn btn-primary btn-block">Back to Farmilify</button></a></p>
+      <br><br><br><br><br><br><br>
       <p><button type="button" class="btn btn-primary btn-block" id="myBtn">EDIT DATA</button></p>
     </div>
     <div class="col-sm-8 text-left"> 
