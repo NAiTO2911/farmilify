@@ -126,7 +126,7 @@ if(!isset($_SESSION['username'])) {
       <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
         <br>
         <div class="col-lg-4  pt-5 pb-5"><h5>Mau menanam apa ?</h5>
-        <br><br><br><br><br><button type="button" class="btn btn-success">Lihat</button> </div>
+        <br><br><br><br><br><button type="button" class="btn btn-success" href="daftar_tanaman.php" role="button">Lihat</button> </div>
         <div class="col-lg-4  pt-5 pb-5"><h5>Kendala pada tanaman</h5>
       <br><br><br><br><br><a class="btn btn-success btn-lg font" href="cekpenyakit/index.php" role="button">Lihat</a></div>
         <div class="col-lg-4  pt-5 pb-5"><h5>Hasil Panen</h5>
