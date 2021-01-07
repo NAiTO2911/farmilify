@@ -2,6 +2,31 @@
 <html>
 <title>Farmilify</title>
   </head>
+  <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="https://icon-library.com/images/farm-icon-png/farm-icon-png-7.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link rel="stylesheet" link href="style/dashboard.css">
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/97987cf7bc.js" crossorigin="anonymous"></script>
+
+    <!-- Import Font Rosario -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+    </style>
+
+    <!-- Title -->
+    <title>Farmilify</title>
+  </head>
   <body>
     <header>
        <!--Navbar -->
