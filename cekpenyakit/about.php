@@ -44,11 +44,9 @@
       <div class="panel panel-success">
       <div class="panel-heading">Di Modifikasi Oleh :</div>
       <div class="panel-body">
-		Kelompok 6 <br>
-		Duma Diani Sari S (1804708)<br>
-        Muhammad Felmi A (1804188)<br>
-		Raisyah Nurul A (1806856)<br>
-		Rifat Lucky A (1806394)<br>
+    Muhammad Felmi A <br>
+		Mohammad Rizky R B<br>
+		Tresna Ramadhian S W G<br>
 		<br>
 		Mohon maaf jika program yang kami buat ini belum sempurna, kedepannya kami akan menambahkan beberapa fitur lainnya untuk mengembangkan program ini menjadi lebih baik lagi.
         </div>
